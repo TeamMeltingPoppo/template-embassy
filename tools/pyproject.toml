@@ -1,0 +1,16 @@
+[project]
+name = "tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "mavlink",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "pyserial>=3.5",
+]
+
+[tool.uv.sources]
+mavlink = { url = "https://github.com/TeamMeltingPoppo/mavlink-python/releases/download/0.6.5/mavlink-0.6.5-py3-none-any.whl" }
