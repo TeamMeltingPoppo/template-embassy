@@ -567,11 +567,10 @@ checksum = "11d3d7f243d5c5a8b9bb5d6dd2b1602c0cb0b9db1621bafc7ed66e35ff9fe092"
 
 [[package]]
 name = "mavlink"
-version = "0.18.0"
-source = "git+https://github.com/TeamMeltingPoppo/mavlink-rs?tag=0.1.0#b9a3195648cd67877f6e51e7ebdc9c9792387253"
+version = "0.2.2"
+source = "git+https://github.com/TeamMeltingPoppo/mavlink-rs?tag=0.2.2#6c6946842837a3924c9dad12168ceffd55d0b3d5"
 dependencies = [
  "bitflags 2.13.1",
- "crc-any",
  "mavlink-bindgen",
  "mavlink-core",
  "num-derive",
